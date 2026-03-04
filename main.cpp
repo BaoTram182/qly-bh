@@ -30,5 +30,13 @@ int main()
         tong += gia[i];
     }
     cout << "Tổng các phần tử trong mảng là: " << tong << endl;
+    for ( int i = 0; i <= 4; i++)
+    {
+        if ( gia[i] > 20 ) 
+        {
+            dem++;
+        }
+    }
+    cout << "Số lượng các sản phẩm có giá lớn hơn 20 là: " << dem << endl;
     return 0;
 }
